@@ -1,0 +1,51 @@
+{
+"name": "Fábio Marra Rodrigues Júnior",
+"job": "Programador",
+"textIntro": "Control and Automation Engineer from the Federal University of Minas Gerais (July/2015) working on Accenture making Manufacturing Execution Systems (MES) for some importants clients of Metallurgical sector. A programmer passionate for discover news ideias and solutions. Has knowledges on Java, PHP, Javascript, MySQL, and experience with Design Patterns, Test Driven Development (TDD), JPA, JSF, SOA, Linux. Great interest in Data Science, Internet of Things (IoT), Performance Programming and systens that make people's lives better.",
+"skills": [
+		{
+		"nameSkill": "Java" ,
+		"skillLevel": 100
+		},
+		{
+		"nameSkill": "REST" ,
+		"skillLevel": 50
+		},
+		{
+		"nameSkill": "TDD" ,
+		"skillLevel": 50
+		},
+		{
+		"nameSkill": "Desing Patterns" ,
+		"skillLevel": 70
+		}
+	],
+"knowledges": [
+		{
+		"nameKnowledge": "HTML / CSS" ,
+		"knowledgeLevel": 80
+		},
+		{
+		"nameKnowledge": "JQuery" ,
+		"knowledgeLevel": 40
+		},
+		{
+		"nameKnowledge": "AngularJS" ,
+		"knowledgeLevel": 50
+		}
+	],
+"languages": [
+		{
+		"nameLanguage": "Portuguese",
+		"languageLevel": 100
+		},
+		{
+		"nameLanguage": "English",
+		"languageLevel": 100
+		},
+		{
+		"nameLanguage": "Spanish",
+		"languageLevel": 20
+		}
+	]
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+
+  <title>Fabio Works</title>
+  <meta name="description" content="Fabio Works">
+  <meta name="author" content="Fabio Marra">
+
+  <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="test.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container-fluid">
+	<div class="row bottom-big" id="pageHeader">
+		<div class="col-xs-4 col-md-4" id="imagem" style="display:table-cell; vertical-align:middle; text-align:center">
+			<img src="img/foto.png" alt="Profile Image" class="img-circle" align="middle" style="width:140px;height:140px;">
+		</div>
+		<div class="text-left col-xs-6 col-md-8">
+			<!--h1 class="animated bounceInLeft" id="name"></h1-->
+			<div class="bottom-small animated bounceInLeft">
+				<h1 id="name"></h1>
+			</div>
+			<h2 class="animated fadeIn" id="job"></h2>
+			<h3 class="animated fadeIn" id="textIntro"></h3>
+			<!--button type="button" onclick=carregaDados()>Click Me!</button-->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-4" id="softSkills">
+			<div class="col-xs-4 col-md-12">
+				<h2 class="text-center animated bounceInLeft" id="softSkillsTitle"> <span class="fa fa-cogs" aria-hidden="true"></span>Experiência</h2>
+				<div class="animated fadeIn text-left" id="skills"></div>
+			</div>
+			<div class="col-xs-4 col-md-12">
+				<h2 class="text-center animated bounceInLeft" id="knowledgesSkillsTitle"> <span class="fa fa-floppy-o" aria-hidden="true"></span> Conhecimentos</h2>
+				<div class="animated fadeIn text-left" id="knowledges"></div>
+			</div>
+			<div class="col-xs-4 col-md-12">
+				<h2 class="text-center animated bounceInLeft" id="languagesSkillsTitle"> <span class="fa fa-globe" aria-hidden="true"></span> Idiomas</h2>
+				<div class="animated fadeIn text-left" id="languages"></div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-8" id="career">
+			<div class="row col-xs-12 col-md-8" id="professionalExperience">
+				<div class="col-md-4 zeroPadding" id="professionalExperienceImage">
+					<h2 class="text-right"><span class="fa fa-suitcase" aria-hidden="true"></span></h2>
+				</div>
+				<div class="col-md-8 zeroPadding" id="professionalExperienceTitle"> 
+					<h2 class="text-left animated bounceInRight">Professional Experience</h2>
+				</div>
+			</div>
+			<div class="row col-xs-12 col-md-8" id="professionalExperience">
+				<div class="col-md-4 zeroPadding">
+					<p id="professionalExperienceDate">Data</p>
+				</div>
+				<div class="col-md-8 zeroPadding" id="professionalExperienceText">
+					<p>E</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="functions.js"></script>
+<script type="text/javascript" src="test.json"></script>
+</body>
+</html>
