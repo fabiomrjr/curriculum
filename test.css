@@ -1,3 +1,16 @@
+h5{
+	font-size:16px;
+	font-weight: bold;
+	color:#000000;
+	text-align: center;
+	font-family: Verdana;
+}
+
+h4{
+	font-size:26px;
+	font-weight: bold;
+}
+
 h3{
 	font-size:16px
 }
@@ -54,6 +67,7 @@ h1{
 #professionalExperienceDate{
 	text-align:right;
 	background-color: #ffcc00;
+	margin-left: 20%;
 }
 
 p {
@@ -73,14 +87,16 @@ p {
   background-color: #ffcc00;
 }
 
-
-
 #professionalExperienceImage{
 	text-align:right;
 }
 
 #professionalExperienceText{
 	text-align:left;
+}
+
+#professionalExperienceTitle{
+	text-align: center;
 }
 
 #career{
@@ -95,4 +111,37 @@ p {
 
 .zeroPadding{
 	padding:0;
+}
+
+.fa-arrow-right{
+	box-shadow:0px 0px 0px;
+}
+
+.arrow_box {
+	position: relative;
+	background: #88b7d5;
+	border: 4px solid #ffcc00;
+}
+.arrow_box:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+//.arrow_box:after {
+//	border-color: rgba(136, 183, 213, 0);
+//	border-left-color: #ffcc00;
+//	border-width: 10px;
+//	margin-top: -10px;
+//}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #ffcc00;
+	border-width: 20px;
+	margin-top: -20px;
 }

@@ -21,7 +21,7 @@ $(document).ready(function() {
 
 function addLanguage(item){
 	
-	var htmlParagrah = $("<p></p>").text(item.nameLanguage);
+	var htmlParagrah = $("<h5></h5>").text(item.nameLanguage);
 	var idProgressBar = "myBar" + item.nameLanguage;
 		
 	var htmlProgressBar = $('<div class="progress"><div id="'+ idProgressBar + '" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div></div>');
@@ -34,7 +34,7 @@ function addLanguage(item){
 
 function addKnowledge(item){
 	
-	var htmlParagrah = $("<p></p>").text(item.nameKnowledge);
+	var htmlParagrah = $("<h5></h5>").text(item.nameKnowledge);
 	var idProgressBar = "myBar" + item.nameKnowledge;
 		
 	var htmlProgressBar = $('<div class="progress"><div id="'+ idProgressBar + '" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div></div>');
@@ -47,7 +47,7 @@ function addKnowledge(item){
 
 function addSkill(item){
 	
-	var htmlParagrah = $("<p></p>").text(item.nameSkill);
+	var htmlParagrah = $("<h5></h5>").text(item.nameSkill);
 	var idProgressBar = "myBar" + item.nameSkill;
 		
 	var htmlProgressBar = $('<div class="progress"><div id="'+ idProgressBar + '" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div></div>');
