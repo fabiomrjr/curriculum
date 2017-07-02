@@ -32,7 +32,12 @@ h1{
 	border-bottom-color: #ffcc00;
 }
 
-.skills{
+.skillsCol1{
+	margin-left: 40px;
+	color: #000000;
+}
+
+.skillsCol2{
 	margin-left: 40px;
 	color: #000000;
 }
@@ -55,26 +60,35 @@ h1{
 	background-color:#4d4d4d;
 }
 
-#name, #job, #textIntro, #languagesSkillsTitle, #knowledgesSkillsTitle, #softSkillsTitle{
+#name, #job, #textIntro, #languagesSkillsTitle, #knowledgesSkillsTitle, #skillsTitle{
 	color:#ffffff;
 }
 
-#languagesSkillsTitle, #knowledgesSkillsTitle, #softSkillsTitle, #professionalExperienceTitle{
+#languagesSkillsTitle, #knowledgesSkillsTitle, #skillsTitle, #professionalExperienceTitle{
 	color:#000000;
 	font-weight: bold;
 }
 
 #professionalExperienceDate{
-	text-align:right;
-	background-color: #ffcc00;
-	margin-left: 20%;
+	text-align: right;
+    background-color: #ffcc00;
+    margin-left: 12%;
+    margin-right: 14%;
+    height: 54px;
+}
+
+#professionalExperienceCompanyText{
+	font-weight: normal;
+    font-family: Arial;
+	color:#000000;
+	text-align: left;
 }
 
 p {
 	font-weight: bold;
     font-family: Verdana;
 	color:#000000;
-	text-align: center;
+	text-align: left;
 }
 
 .fa{
@@ -87,12 +101,29 @@ p {
   background-color: #ffcc00;
 }
 
+.zeroPadding2{
+	padding: 0;
+}
+
 #professionalExperienceImage{
 	text-align:right;
 }
 
-#professionalExperienceText{
-	text-align:left;
+#professionalExperienceJob{
+	background-color: #ffcc00;
+	padding: 0;
+}
+
+#professionalExperienceJob, #professionalExperienceJob{
+	display: inline;
+}
+
+//.zeroPadding .arrow_box {
+//	font-size:10px;
+//}
+
+.teste2{
+	background-color: #ffcc00;
 }
 
 #professionalExperienceTitle{
@@ -110,17 +141,34 @@ p {
 }
 
 .zeroPadding{
-	padding:0;
+	padding-right:3px;
+	padding-left:5px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.zeroPaddingArrow{
+	padding-right: 6px;
+    padding-left: 5px;
+    padding-bottom: 2%;
+    padding-top: 2%;
 }
 
 .fa-arrow-right{
 	box-shadow:0px 0px 0px;
 }
 
+.teste45{
+	text-align: right;
+	font-size:20px;
+}
+
 .arrow_box {
 	position: relative;
-	background: #88b7d5;
-	border: 4px solid #ffcc00;
+    background: #ffcc00;
+    border: 1px solid #ffcc00;
+	height: 30px;
+    width: 86%;
 }
 .arrow_box:after, .arrow_box:before {
 	left: 100%;
@@ -136,12 +184,13 @@ p {
 //.arrow_box:after {
 //	border-color: rgba(136, 183, 213, 0);
 //	border-left-color: #ffcc00;
-//	border-width: 10px;
-//	margin-top: -10px;
+//	border-width: 20px;
+//	margin-top: -20px;
 //}
+
 .arrow_box:before {
 	border-color: rgba(194, 225, 245, 0);
 	border-left-color: #ffcc00;
-	border-width: 20px;
-	margin-top: -20px;
+	border-width: 35px;
+	margin-top: -34px;
 }
