@@ -23,6 +23,12 @@ h1{
 	font-size:36px
 }
 
+.fa{
+	height: 50px;
+	width:50px;
+	line-height: inherit;
+}
+
 .bottom-small {
     border-bottom: 2px solid #ffcc00;
 }

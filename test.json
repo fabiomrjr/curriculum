@@ -46,6 +46,13 @@
 			"languageLevel": 20
 		}
 	],
+"Education": [
+		{
+			"University": "Federal University of Minas Gerais - UFMG",
+			"EducationDate": "2009 - 2015",
+			"Course": "Controle and Automation Engineering"
+		}
+	],
 "JobExperiences": [
 		{
 			"JobCompany": "Accenture",
