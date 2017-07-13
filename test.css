@@ -124,10 +124,6 @@ p {
 	display: inline;
 }
 
-//.zeroPadding .arrow_box {
-//	font-size:10px;
-//}
-
 .teste2{
 	background-color: #ffcc00;
 }
@@ -169,9 +165,20 @@ p {
 	font-size:20px;
 }
 
+.arrow_text{
+	font-size:26px;
+    font-family: Arial;
+	color:#000000;
+	padding: 5px 25px 5px 25px;
+}
+
+.arrow_box, .arrow_text{
+	display: inline;
+}
+
 .arrow_box {
 	position: relative;
-    background: #ffcc00;
+	background: #ffcc00;
     border: 1px solid #ffcc00;
 	height: 30px;
     width: 86%;
@@ -180,19 +187,12 @@ p {
 	left: 100%;
 	top: 50%;
 	border: solid transparent;
-	content: " ";
+	content: "";
 	height: 0;
 	width: 0;
 	position: absolute;
 	pointer-events: none;
 }
-
-//.arrow_box:after {
-//	border-color: rgba(136, 183, 213, 0);
-//	border-left-color: #ffcc00;
-//	border-width: 20px;
-//	margin-top: -20px;
-//}
 
 .arrow_box:before {
 	border-color: rgba(194, 225, 245, 0);
@@ -200,3 +200,8 @@ p {
 	border-width: 35px;
 	margin-top: -34px;
 }
+
+.tt{
+	display: flex;  
+}
+

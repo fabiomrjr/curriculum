@@ -6,9 +6,22 @@ $(document).ready(function() {
 		$('#textIntro').text(data.textIntro);
 		
 		addSkillsLanguages(data);
+		addEducation(data);
 		addJobExperiences(data);
     });
 });
+
+function addEducation(data){
+	
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding' id='professionalExperienceImage'><h4 class='text-right'><span class='fa fa-graduation-cap' aria-hidden='true'></span></h4></div></td><td class='col-xs-8 col-md-8'><div class='zeroPadding' id='educationTitle'> <h4 class='text-left animated bounceInRight'>Education</h4></div></td></tr>");
+	
+	$('#tableCareer').append(htmlParagrah);
+	
+	$.each(data.Education, function(i, item){
+		addHead(item.EducationDate, item.University);
+		addBody(item.Course, "");	
+	});
+}
 
 function addJobExperiences(data){
 	
@@ -17,20 +30,20 @@ function addJobExperiences(data){
 	$('#tableCareer').append(htmlParagrah);
 	
 	$.each(data.JobExperiences, function(i, item){
-		addHead(item);
-		addBody(item);	
+		addHead(item.JobDate, item.Job);
+		addBody(item.JobCompany, item.JobDescription);	
 	});
 }
 
-function addBody(JobExperience){
+function addBody(JobCompany, JobDescription){
 	
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding'></div></td><td class='col-xs-8 col-md-8 teste3'><div class='zeroPadding2' id='professionalExperienceCompany'> <h4 id='teste'>" + JobExperience.JobCompany + "</h4><h5 id='professionalExperienceCompanyText'>" + JobExperience.JobDescription + "</h5></div></td></tr>");
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding'></div></td><td class='col-xs-8 col-md-8 teste3'><div class='zeroPadding2' id='professionalExperienceCompany'> <h4 id='teste'>" + JobCompany + "</h4><h5 id='professionalExperienceCompanyText'>" + JobDescription + "</h5></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 }
 
-function addHead(JobExperience){
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><h4 class='arrow_box teste45'>" + JobExperience.JobDate + "</h4></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 id='professionalExperienceJobText'>" + JobExperience.Job + "</h4></div></td></tr>");
+function addHead(JobDate, Job){
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><p class='arrow_box teste45 arrow_text'>" + JobDate + "</p></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 id='professionalExperienceJobText'>" + Job + "</h4></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 }

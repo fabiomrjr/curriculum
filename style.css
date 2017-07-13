@@ -1,0 +1,16 @@
+.varios-elementos {
+  background: #ccc; }
+  .varios-elementos p {
+    color: red; }
+  .varios-elementos a {
+    color: pink; }
+  .varios-elementos input {
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-left: solid 1px #eaeaeb;
+    border-right: solid 1px #eaeaeb;
+    border-bottom: solid 1px #eaeaeb;
+    border-top: solid 3px #ccc; }
+
+/*# sourceMappingURL=style.css.map */
