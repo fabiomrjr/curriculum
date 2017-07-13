@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 function addEducation(data){
 	
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding' id='professionalExperienceImage'><h4 class='text-right'><span class='fa fa-graduation-cap' aria-hidden='true'></span></h4></div></td><td class='col-xs-8 col-md-8'><div class='zeroPadding' id='educationTitle'> <h4 class='text-left animated bounceInRight'>Education</h4></div></td></tr>");
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding' id='professionalExperienceImage'><h4 class='text-right'><span class='fa fa-graduation-cap' aria-hidden='true'></span></h4></div></td><td class='col-xs-8 col-md-8'><div class='zeroPadding' id='educationTitle'> <h4 class='text-left animated bounceInRight title'>EDUCATION</h4></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 	
@@ -25,7 +25,7 @@ function addEducation(data){
 
 function addJobExperiences(data){
 	
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding' id='professionalExperienceImage'><h4 class='text-right'><span class='fa fa-suitcase' aria-hidden='true'></span></h4></div></td><td class='col-xs-8 col-md-8'><div class='zeroPadding' id='professionalExperienceTitle'> <h4 class='text-left animated bounceInRight'>Professional Experience</h4></div></td></tr>");
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><div class='zeroPadding' id='professionalExperienceImage'><h4 class='text-right'><span class='fa fa-suitcase' aria-hidden='true'></span></h4></div></td><td class='col-xs-8 col-md-8'><div class='zeroPadding' id='professionalExperienceTitle'> <h4 class='text-left animated bounceInRight title'>PROFESSIONAL EXPERIENCE</h4></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 	
@@ -43,7 +43,7 @@ function addBody(JobCompany, JobDescription){
 }
 
 function addHead(JobDate, Job){
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><p class='arrow_box teste45 arrow_text'>" + JobDate + "</p></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 id='professionalExperienceJobText'>" + Job + "</h4></div></td></tr>");
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><p class='arrow_box paragraf arrow_text'>" + JobDate + "</p></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 class='titleSecondary'>" + Job + "</h4></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 }
@@ -72,7 +72,7 @@ function addSkillsLanguages(data){
 
 function addLanguage(item){
 	
-	var htmlParagrah = $("<h5></h5>").text(item.nameLanguage);
+	var htmlParagrah = $("<h5 class='skill'></h5>").text(item.nameLanguage);
 	var idProgressBar = "myBar" + item.nameLanguage;
 		
 	var htmlProgressBar = $('<div class="progress"><div id="'+ idProgressBar + '" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div></div>');
@@ -85,7 +85,7 @@ function addLanguage(item){
 
 function addSkill(item, col){
 	
-	var htmlParagrah = $("<h5></h5>").text(item.nameSkill);
+	var htmlParagrah = $("<h5 class='skill'></h5>").text(item.nameSkill);
 	var idProgressBar = "myBar" + item.nameSkill;
 		
 	var htmlProgressBar = $('<div class="progress"><div id="'+ idProgressBar + '" class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div></div>');

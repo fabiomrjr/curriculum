@@ -1,4 +1,27 @@
-h5{
+.pageHeader{
+	background-color:#4d4d4d;
+	color:#ffffff;
+}
+
+.border-bottom-small {
+    border-bottom: 2px solid #ffcc00;
+}
+
+.title{
+	font-size:26px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#000000;
+}
+
+.titleSecondary{
+	font-size:19px;
+	font-weight: bold;
+	font-family: Verdana;
+	color:#4d4d4d;
+}
+
+.skill{
 	font-size:16px;
 	font-weight: bold;
 	color:#000000;
@@ -7,7 +30,7 @@ h5{
 }
 
 h4{
-	font-size:26px;
+	font-size:16px;
 	font-weight: bold;
 }
 
@@ -27,10 +50,8 @@ h1{
 	height: 50px;
 	width:50px;
 	line-height: inherit;
-}
-
-.bottom-small {
-    border-bottom: 2px solid #ffcc00;
+	font-size:26px !important;
+	font-weight: bold;
 }
 
 .bottom-big {
@@ -58,19 +79,8 @@ h1{
     transition: none !important;
 }
 
-#softSkills{
+.Skills{
 	background-color: #bebebe;
-}
-
-#pageHeader{
-	background-color:#4d4d4d;
-}
-
-#name, #job, #textIntro, #languagesSkillsTitle, #knowledgesSkillsTitle, #skillsTitle{
-	color:#ffffff;
-}
-
-#languagesSkillsTitle, #knowledgesSkillsTitle, #skillsTitle, #professionalExperienceTitle{
 	color:#000000;
 	font-weight: bold;
 }
@@ -160,7 +170,7 @@ p {
 	box-shadow:0px 0px 0px;
 }
 
-.teste45{
+.paragraf{
 	text-align: right;
 	font-size:20px;
 }
@@ -169,7 +179,7 @@ p {
 	font-size:26px;
     font-family: Arial;
 	color:#000000;
-	padding: 5px 25px 5px 25px;
+	padding: 2% 2% 2% 6%;
 }
 
 .arrow_box, .arrow_text{
@@ -203,5 +213,28 @@ p {
 
 .tt{
 	display: flex;  
+}
+
+.footer{
+	margin: 0px;
+	background-color: #4d4d4d;
+}
+
+.footer .foot{
+	display: inline-block;
+}
+
+i, .fa{
+	vertical-align: inherit;
+    text-align: center !important;
+}
+
+.foot p{
+	padding: 2%;
+	color:#ffffff;
+	font-size:26px;
+	text-align: center;
+	vertical-align: center;
+	font-family: sans-serif;
 }
 
