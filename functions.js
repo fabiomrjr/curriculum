@@ -21,7 +21,7 @@ function addEducation(data){
 	$('#tableCareer').append(htmlParagrah);
 	
 	$.each(data.Education, function(i, item){
-		addHead(item.Date, item.University);
+		addHead(item.WorkPeriod, item.University);
 		addBody(item.Course, "");	
 	});
 }
@@ -33,7 +33,7 @@ function addJobExperiences(data){
 	$('#tableCareer').append(htmlParagrah);
 	
 	$.each(data.JobExperiences, function(i, item){
-		addHead(item.Date, item.Job);
+		addHead(item.WorkPeriod, item.Job);
 		addBody(item.Company, item.JobDescription);	
 	});
 }
@@ -45,8 +45,8 @@ function addBody(Company, JobDescription){
 	$('#tableCareer').append(htmlParagrah);
 }
 
-function addHead(Date, Job){
-	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><p class='arrow_box paragraf arrow_text'>" + Date + "</p></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 class='titleSecondary'>" + Job + "</h4></div></td></tr>");
+function addHead(WorkPeriod, Job){
+	var htmlParagrah = $("<tr><td class='col-xs-4 col-md-4'><p class='arrow_box paragraf arrow_text'>" + WorkPeriod + "</p></td><td class='col-xs-8 col-md-8 teste2'><div class='zeroPadding' id='professionalExperienceJob'><h4 class='titleSecondary'>" + Job + "</h4></div></td></tr>");
 	
 	$('#tableCareer').append(htmlParagrah);
 }

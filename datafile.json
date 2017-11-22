@@ -49,20 +49,20 @@
 "Education": [
 		{
 			"University": "Federal University of Minas Gerais - UFMG",
-			"Date": "2009 - 2015",
+			"WorkPeriod": "2009 - 2015",
 			"Course": "Controle and Automation Engineering"
 		}
 	],
 "JobExperiences": [
 		{
 			"Company": "Accenture",
-			"Date": "2015 - Now",
+			"WorkPeriod": "2015 - Now",
 			"Job": "Software Engineer",
 			"JobDescription": "We built a MES (Manufacturing Execution Systems) software for Gerdau, a big company of Metallurgical Industry. All the system was built on JAVA Language, using Microsoft SQL Server as Database, and Web Services for all communication with others systems like SAP and Oracle Database from Automation System of Gerdau."
 		},
 		{
 			"Company": "TESLA Laboratory",
-			"Date": "2013 - 2015",
+			"WorkPeriod": "2013 - 2015",
 			"Job": "Intern",
 			"JobDescription": "Specification, design, studies of shading power produced, and quoting required machines for the operation of Photovoltaic Power Plant at the UFMG. Studies and implementation of Maximum Power Point Tracking (MPPT) methods on Photovoltaic Painels. Programming microcontrollers (DSPs) to control Photovoltaics Systems. Use of electronic instrumentation (multimeters, oscilloscopes and others)."
 		}
