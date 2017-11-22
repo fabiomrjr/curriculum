@@ -62,7 +62,7 @@
 		},
 		{
 			"Company": "TESLA Laboratory",
-			"JobDate": "2013 - 2015",
+			"Date": "2013 - 2015",
 			"Job": "Intern",
 			"JobDescription": "Specification, design, studies of shading power produced, and quoting required machines for the operation of Photovoltaic Power Plant at the UFMG. Studies and implementation of Maximum Power Point Tracking (MPPT) methods on Photovoltaic Painels. Programming microcontrollers (DSPs) to control Photovoltaics Systems. Use of electronic instrumentation (multimeters, oscilloscopes and others)."
 		}
