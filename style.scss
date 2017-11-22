@@ -1,14 +1,83 @@
-.varios-elementos{
-       background:#ccc;
-       p{ color:red}
-       a{ color:pink}
-       input{
-         -moz-border-radius: 20px;
-         border-radius: 20px;
-         -webkit-border-radius: 20px;
-         border-left:solid 1px #eaeaeb;
-         border-right:solid 1px #eaeaeb;
-         border-bottom:solid 1px #eaeaeb; 
-         border-top:solid 3px #ccc;
-       }
-    }
+$header-footer-backgroundcolor: #4d4d4d;
+$skills-backgroundcolor: #;
+$edu-prof-backgroundcolor: #;
+$header-text-color: #ffffff
+$infos-color: #000000
+
+.boldVerdana{
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+.pageHeader{
+	background-color: $header-footer-backgroundcolor;
+	color: $header-text-color;
+}
+
+.border-bottom-small {
+    border-bottom: 2px solid #ffcc00;
+}
+
+.title{
+	@extend .boldVerdana;
+	font-size:26px;
+	color: $infos-color;
+}
+
+.titleSecondary{
+	@extend .boldVerdana;
+	font-size:19px;
+	color: $header-footer-backgroundcolor;
+}
+
+.skill{
+	@extend .boldVerdana;
+	font-size:16px;
+	color: $infos-color;
+	text-align: center;
+}
+
+.footer {
+	margin: 0px;
+	background-color: #4d4d4d;
+
+	.foot{
+		display: inline-block;
+	}
+}
+
+.foot{
+	display: flex;
+	
+	img{
+		margin-top: 2%;
+		width:260px;
+		/*# padding: 2%;
+		//color:#ffffff; */
+		vertical-align: center; 
+		margin-left: auto;
+		margin-right: auto;
+		
+		display:table-cell; vertical-align:middle; text-align:center
+	}
+
+	i{
+		margin-top: 4%;
+	}
+}
+
+
+//.varios-elementos{
+//       background:#ccc;
+//       p{ color:red}
+//       a{ color:pink}
+//       input{
+//         -moz-border-radius: 20px;
+//         border-radius: 20px;
+//         -webkit-border-radius: 20px;
+//         border-left:solid 1px #eaeaeb;
+//         border-right:solid 1px #eaeaeb;
+//         border-bottom:solid 1px #eaeaeb; 
+//         border-top:solid 3px #ccc;
+//       }
+//    }

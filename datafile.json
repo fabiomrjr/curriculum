@@ -1,0 +1,70 @@
+{
+"programmerName": "Fábio Marra Rodrigues Júnior",
+"job": "Programmer",
+"textIntro": "Control and Automation Engineer from the Federal University of Minas Gerais (July/2015) working on Accenture making Manufacturing Execution Systems (MES) for some importants clients of Metallurgical sector. A programmer passionate for discover news ideias and solutions. Has knowledges on Java, PHP, Javascript, MySQL, and experience with Design Patterns, Test Driven Development (TDD), JPA, JSF, SOA, Linux. Great interest in Data Science, Internet of Things (IoT), Performance Programming and systens that make people's lives better.",
+"skills": [
+		{
+			"name": "Java" ,
+			"level": 90
+		},
+		{
+			"name": "REST" ,
+			"level": 50
+		},
+		{
+			"name": "TDD" ,
+			"level": 40
+		},
+		{
+			"name": "Desing Patterns" ,
+			"level": 70
+		},
+		{
+			"name": "HTML / CSS" ,
+			"level": 80
+		},
+		{
+			"name": "Javascript" ,
+			"level": 40
+		},
+		{
+			"name": "Angular 2" ,
+			"level": 60
+		}
+	],
+"languages": [
+		{
+			"name": "Portuguese",
+			"level": 100
+		},
+		{
+			"name": "English",
+			"level": 100
+		},
+		{
+			"name": "Spanish",
+			"level": 20
+		}
+	],
+"Education": [
+		{
+			"University": "Federal University of Minas Gerais - UFMG",
+			"Date": "2009 - 2015",
+			"Course": "Controle and Automation Engineering"
+		}
+	],
+"JobExperiences": [
+		{
+			"Company": "Accenture",
+			"Date": "2015 - Now",
+			"Job": "Software Engineer",
+			"JobDescription": "We built a MES (Manufacturing Execution Systems) software for Gerdau, a big company of Metallurgical Industry. All the system was built on JAVA Language, using Microsoft SQL Server as Database, and Web Services for all communication with others systems like SAP and Oracle Database from Automation System of Gerdau."
+		},
+		{
+			"Company": "TESLA Laboratory",
+			"JobDate": "2013 - 2015",
+			"Job": "Intern",
+			"JobDescription": "Specification, design, studies of shading power produced, and quoting required machines for the operation of Photovoltaic Power Plant at the UFMG. Studies and implementation of Maximum Power Point Tracking (MPPT) methods on Photovoltaic Painels. Programming microcontrollers (DSPs) to control Photovoltaics Systems. Use of electronic instrumentation (multimeters, oscilloscopes and others)."
+		}
+	]
+}
