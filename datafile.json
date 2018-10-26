@@ -5,7 +5,7 @@
 "skills": [
 		{
 			"name": "Java" ,
-			"level": 90
+			"level": 80
 		},
 		{
 			"name": "REST" ,
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "HTML / CSS" ,
-			"level": 80
+			"level": 70
 		},
 		{
 			"name": "Javascript" ,
@@ -58,13 +58,13 @@
 			"Company": "Accenture",
 			"WorkPeriod": "2015 - Now",
 			"Job": "Software Engineer",
-			"JobDescription": "We built a MES (Manufacturing Execution Systems) software for Gerdau, a big company of Metallurgical Industry. All the system was built on JAVA Language, using Microsoft SQL Server as Database, and Web Services for all communication with others systems like SAP and Oracle Database from Automation System of Gerdau."
+			"JobDescription": "We built a MES (Manufacturing Execution Systems) software for a big company of Metallurgical Industry. All the system was built on JAVA Language, using Microsoft SQL Server as Database, and Web Services for all communication with others systems like SAP and Oracle Database from Automation Systems. I was Team Lead and responsible for evaluate, solve and validate very important features on client MES System and communicate with key clients for the business to Accenture."
 		},
 		{
 			"Company": "TESLA Laboratory",
 			"WorkPeriod": "2013 - 2015",
 			"Job": "Intern",
-			"JobDescription": "Specification, design, studies of shading power produced, and quoting required machines for the operation of Photovoltaic Power Plant at the UFMG. Studies and implementation of Maximum Power Point Tracking (MPPT) methods on Photovoltaic Painels. Programming microcontrollers (DSPs) to control Photovoltaics Systems. Use of electronic instrumentation (multimeters, oscilloscopes and others)."
+			"JobDescription": "Specification, design, studies of shading power produced, and quoting required machines for the operation of Photovoltaic Power Plant at the UFMG. Study and implementation of Maximum Power Point Tracking (MPPT) methods on Photovoltaic Panels. Programming microcontrollers (DSPs) to control Photovoltaics Systems. Use of electronic instrumentation (multimeters, oscilloscopes and others)."
 		}
 	]
 }
